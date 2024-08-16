@@ -11,13 +11,19 @@ body {
     background-color: rgba(243, 10, 10, 0.508);
     padding: 20px;
     margin: 10px;
+   
+}
+@media only screen and (max-width: 576px) {
+    .header {
+        width: 500px;
+    }
 }
 @media only screen and (max-width: 576px) {
     h1 {
         display: flex;
         justify-content: center;
         color: red;
-        width: 550px;
+        width: 500px;
         background-color: black;
         margin: auto;
         padding: auto;
@@ -25,9 +31,16 @@ body {
     }
 }
 .img-logo{
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
+}
+@media only screen and (max-width: 576px) {
+    .img-logo {
+        width: 150px;
+        height: 100px;
+        object-fit: cover;
+    }
 }
 .header-nav {
     display: flex;
@@ -37,35 +50,56 @@ body {
 }
 .list-nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     gap: 20px;
     position: fixed;
     top: 100px;
+    width: 1600px;
+   
+   
+    
 
 }
-h3{
+@media only screen and (max-width: 576px) {
+    .list-nav {
+        display: flex;
+        justify-content: end;
+        width: 500px;
+        gap: 10px;
+        position: fixed;
+        top: 80px;
+        left: 10px;
+        
+      
+       
+       
+    }
+}
+h3 {
     display: flex;
     justify-content: end;
     position: fixed;
-    top: 50px;
-    right: 100px;
     color: white;
+    width: 1700px;
+    left: 100px;
+    top: 40px;
 }
-@media only screen and (min-width: 576px) {
+
+@media only screen and (max-width: 992px) {
     h3 {
-        display: flex;
-        position: fixed;
-        top: 30px;
-        left: 00px;
+     width: 770px;   
 
     }
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 576px) {
     h3 {
+        width: 300px;
         display: flex;
+        justify-content: end;
         position: fixed;
-        top: 40px;
-        right: 100px;
+        top: 35px;
+        left: 140px;
+
     }
 }
 .tittle{
@@ -76,6 +110,18 @@ h3{
     color: red;
 
 
+
+}
+@media only screen and (max-width: 576px) {
+    .tittle {
+        display: flex;
+        justify-content: baseline;
+        padding: 10px;
+        margin: 10px;
+        color: red;
+        width: 500px;
+      
+    }
 }
 .parra-1{
     color: white;
@@ -87,23 +133,22 @@ h3{
 }
 @media only screen and (max-width: 576px) {
     .parra-1{
-        color: black;
         background-color: aquamarine;
         font-size: 1rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: auto;
-        padding: auto;
+        width: 500px;
     }
 }
 @media only screen and (max-width: 992px) {
     .parra-1 {
-        background-color: darkgray;
-        color: black;
+        background-color: gray;
+        color: white;
         font-size: larger;
         font-family: 'Times New Roman', Times, serif;
     }
 }
 .autos-url {
+    margin: 10px;
     padding: 20px;
     font-size: 30px;
     background-color: black;
@@ -111,16 +156,44 @@ h3{
     justify-content: center;
     justify-content: space-around;
     
+    
 }
+@media only screen and (max-width: 576px) {
+    .autos-url {
+        margin: 10px;
+        font-size: 25px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        width: 500px;
+    }
+}
+
+
 a:visited{
     color: white;
 }
 .img-portada {
-  width: 100%;
-  object-fit: cover
-  ;
+  margin: auto;
+  width: 1870px;
+  object-fit: cover;
+}
+@media only screen and (max-width: 992px) {
+    .img-portada {
+        margin:auto;
+        width: 950px;
+        object-fit: cover;
 
- 
+    }
+}
+@media only screen and (max-width: 576px) {
+    .img-portada {
+        margin: auto;
+        width: 550px;
+        object-fit: cover;
+
+    }
 }
 .imagen-autos{
     width: 600px;
@@ -136,18 +209,16 @@ a:visited{
     .imagen-autos {
         width: 300px;
         height: 300px;
-        margin: auto;
-        padding: auto;
+       
 
     }
 
 }
 @media only screen and (max-width: 576px) {
     .imagen-autos {
-        width: 550px;
+        width: 500px;
         height: 400px;
-        margin: auto;
-        padding: auto;
+    
     }
 
 }
@@ -164,16 +235,17 @@ a:visited{
         background-color: cadetblue;
         color: black;
         font-size: 20px;
-        margin: auto;
-        padding: auto;
+        width: 500px;
+       
     }
 }
 @media only screen and (max-width: 992px) {
     .parra-2 {
-        color: black;
-        background-color: grey ;
+        color: white;
+        background-color: gray;
         font-size: large;
         font-family: 'Arial Narrow', Arial,;
+      
     }
 }
 
@@ -184,6 +256,18 @@ h2 {
     color: black;
     background-color: white;
     font-size: 40px;
+}
+
+@media only screen and (max-width: 576px) {
+    h2 {
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+        color: black;
+        background-color: white;
+        font-size: 40px;
+        width: 450px;  
+    }
 }
 h4 {
     text-align: center;
@@ -203,6 +287,25 @@ h4 {
     padding: 20px;
     width: 1850px;
 }
+@media only screen and (max-width: 992px) {
+    #nuevos {
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 40px;
+        width: 940px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    #nuevos {
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 40px;
+        width: 500px;
+    }
+}
+
 #usados {
     text-align: center;
     background-color: white;
@@ -212,6 +315,25 @@ h4 {
     padding: 20px;
     width: 1850px;
 }
+@media only screen and (max-width: 576px) {
+    #usados {
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 40px;
+        width: 500px;
+    }
+}
+/*@media only screen and (max-width: 992px) {
+    #usados {
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 40px;
+        width: 940px;
+    }
+}*/
+
 .precios {
     color: white;
     margin: 20px;
@@ -219,6 +341,12 @@ h4 {
     background-color: black;
     font-size: 1rem;
     text-align: center;
+}
+@media only screen and (max-width: 576px) {
+    .precios {
+        text-align: center;
+        width: 450px;
+    }
 }
 .img-repuestos {
     width: 500px;
@@ -252,8 +380,7 @@ h4 {
 @media only screen and (max-width: 576px) {
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
-        margin: 10px;        
+        gap: 10px;    
 }
 }
 @media only screen and (max-width: 992px) {
@@ -265,7 +392,7 @@ h4 {
 
 @media only screen and (max-width: 576px) {
     .img-repuestos {
-        width: 550px;
+        width: 500px;
         height: 400px;
        
     }
@@ -290,7 +417,7 @@ h4 {
         margin: 10px;
         position: relative;
         left: 0px;
-        width: 550px;
+        width: 520px;
         height: 500px;
 
     }
