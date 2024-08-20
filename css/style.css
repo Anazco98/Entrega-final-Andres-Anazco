@@ -46,29 +46,47 @@ body {
     display: flex;
     justify-content: space-around;
     justify-content: end;
+   
+   /* width: 1780px;*/
     
 }
 .list-nav {
     display: flex;
     justify-content: end;
-    gap: 20px;
-    position: fixed;
+    gap: 30px;
+    position: absolute;
     top: 100px;
-    width: 1600px;
+  
+   
    
    
     
 
+}
+@media only screen and (max-width: 992px) {
+    .list-nav {
+        display: flex;
+        justify-content: end;
+        width: 500px;
+        gap: 20px;
+        position: absolute;
+        top: 90px;
+        right: 60px;
+        
+      
+       
+       
+    }
 }
 @media only screen and (max-width: 576px) {
     .list-nav {
         display: flex;
         justify-content: end;
         width: 500px;
-        gap: 10px;
-        position: fixed;
+        gap: 20px;
+        position: absolute;
         top: 80px;
-        left: 10px;
+        right: 120px;
         
       
        
@@ -78,10 +96,10 @@ body {
 h3 {
     display: flex;
     justify-content: end;
-    position: fixed;
+    position: absolute;
     color: white;
     width: 1700px;
-    left: 100px;
+    left: 160px;
     top: 40px;
 }
 
@@ -96,11 +114,14 @@ h3 {
         width: 300px;
         display: flex;
         justify-content: end;
-        position: fixed;
+        position: absolute;
         top: 35px;
         left: 140px;
 
     }
+}
+.img-redes {
+    width: 30px;
 }
 .tittle{
     display: flex;
@@ -161,7 +182,7 @@ h3 {
 @media only screen and (max-width: 576px) {
     .autos-url {
         margin: 10px;
-        font-size: 25px;
+        font-size: 15px;
         background-color: black;
         display: flex;
         justify-content: center;
@@ -174,25 +195,30 @@ h3 {
 a:visited{
     color: white;
 }
-.img-portada {
-  margin: auto;
-  width: 1870px;
-  object-fit: cover;
-}
-@media only screen and (max-width: 992px) {
-    .img-portada {
-        margin:auto;
-        width: 950px;
-        object-fit: cover;
+.img-carrusel {
+    position: relative;
+    object-fit: cover;
+    left: 400px;
+    width: 1200px;
+    height: 900px;
+    
 
+}
+
+@media only screen and (max-width: 992px) {
+    .img-carrusel{
+        position: relative;
+        left: 100px;
+        width: 800px;
+        height: 700px;
     }
 }
 @media only screen and (max-width: 576px) {
-    .img-portada {
-        margin: auto;
-        width: 550px;
-        object-fit: cover;
-
+    .img-carrusel{
+        position: relative;
+        left: 20px;
+        width: 500px;
+        height: 400px;
     }
 }
 .imagen-autos{
@@ -221,6 +247,77 @@ a:visited{
     
     }
 
+}
+@media only screen and (max-width: 992px) {
+    #camionetas {
+        width: 930px;
+    }
+    
+    }
+@media only screen and (max-width: 576px) {
+#camionetas {
+    width: 500px;
+}
+
+}
+.img-camionetas{
+    border: 1px solid red;
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+   
+    
+   
+}
+@media only screen and (max-width: 992px) {
+    .img-camionetas {
+        width: 300px;
+        height: 300px;
+
+    }
+}
+@media only screen and (max-width: 576px) {
+    .img-camionetas {
+        width: 500px;
+        height: 400px;
+        gap: 10px;
+    }
+
+}
+.caja-camionetas {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  
+}
+@media only screen and (max-width: 576px) {
+    .caja-camionetas {
+       display: flex;
+       flex-wrap: wrap;
+       gap: 10px;
+    }
+}
+.precio-camioneta {
+    color: white;
+    width: 550px;
+    margin: 10px;
+    padding: 20px;
+    background-color: black;
+    font-size: 1rem;
+    text-align: center;
+}
+@media only screen and (max-width: 992px) {
+    .precio-camioneta {
+        width: 270px;
+
+    }
+
+}
+@media only screen and (max-width: 576px) {
+    .precio-camioneta {
+        text-align: center;
+        width: 450px;
+    }
 }
 .parra-2{
     color: white ;
@@ -265,8 +362,8 @@ h2 {
         padding: 20px;
         color: black;
         background-color: white;
-        font-size: 40px;
-        width: 450px;  
+        font-size: 30px;
+        width: 500px;  
     }
 }
 h4 {
@@ -293,7 +390,7 @@ h4 {
         background-color: white;
         color: black;
         font-size: 40px;
-        width: 940px;
+        width: 950px;
     }
 }
 @media only screen and (max-width: 576px) {
@@ -301,7 +398,7 @@ h4 {
         text-align: center;
         background-color: white;
         color: black;
-        font-size: 40px;
+        font-size: 30px;
         width: 500px;
     }
 }
@@ -315,25 +412,25 @@ h4 {
     padding: 20px;
     width: 1850px;
 }
+
+@media only screen and (max-width: 992px) {
+    #usados {
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 40px;
+        width: 950px;
+    }
+}
 @media only screen and (max-width: 576px) {
     #usados {
         text-align: center;
         background-color: white;
         color: black;
-        font-size: 40px;
+        font-size: 30px;
         width: 500px;
     }
 }
-/*@media only screen and (max-width: 992px) {
-    #usados {
-        text-align: center;
-        background-color: white;
-        color: black;
-        font-size: 40px;
-        width: 940px;
-    }
-}*/
-
 .precios {
     color: white;
     margin: 20px;
