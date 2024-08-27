@@ -1,0 +1,561 @@
+//Base
+@import 'base/reset';
+//componets
+@import 'components/carousel';
+@import 'components/nabvar';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    background-color: rgba(0, 0, 0, 0.192);
+    padding: 20px;
+    margin: 10px;
+
+    .img-logo{
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
+        margin: 10px;
+        padding: 10px
+    }
+
+    .tittle{
+        display: flex;
+        justify-content:center;
+        font-size: 50px;
+        padding: 10px;
+        margin: 10px;
+        color: red;
+        background-color: black;
+        transition: 0.5s;
+
+        &:hover {
+            color: white;
+        }
+    }
+    .contacts {
+        display: flex;
+        justify-content: end;
+        color: white;
+        position: absolute;
+        top: 30px;
+        left: 1720px;
+    
+    }
+
+    .parra-1{
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin: 10px;
+        padding: 10px;
+    }
+    h3 {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        margin: 10px;
+        padding: 10px;
+        color: black;
+        background-color: white;
+     }
+
+     .parra-2{
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+
+
+
+}
+
+main {
+    h4 {
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 40px;
+        margin: 20px;
+        padding: 20px;
+        width: 1850px;
+    }
+
+    #nuevos {
+        text-align: center;
+        background-color:white;
+        color: black;
+        font-size: 40px;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .imagen-autos{
+        width: 600px;
+        height: 500px;
+        border: 1px solid red;
+        object-fit: cover;
+        margin: auto;
+        padding: auto;
+    }
+
+    .precios {
+        color: white;
+        margin: 20px;
+        padding: 20px;
+        background-color: black;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #usados {
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 40px;
+        
+    }
+
+    .caja-camionetas {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    
+        .img-camionetas{
+            border: 1px solid red;
+            width: 600px;
+            height: 500px;
+            object-fit: cover;  
+        }
+    
+        .precio-camioneta {
+            color: white;
+            width: 550px;
+            margin: 10px;
+            padding: 20px;
+            background-color: black;
+            font-size: 1rem;
+            text-align: center;
+        }
+      
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-rows:repeat(2, 400px);
+        grid-template-columns:repeat(3, 1fr);
+        gap: 10px;
+    
+        .img-repuestos {
+            width: 600px;
+            height: 400px;
+            border: 1px solid rgb(255, 0, 0);
+        }
+        
+       
+       
+    }
+
+
+
+
+   
+}
+
+footer {
+    h5 {
+        background-color: white;
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .maps {
+        position: relative;
+        left: 550px;
+        width: 800px;
+        height: 400px;
+        border: 2px solid red;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: red;
+        font-size: 70px;
+        margin: auto;
+        padding: auto;
+       
+    }
+}
+@media only screen and (max-width: 576px) {
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: red;
+        background-color: black;
+        margin: auto;
+        padding: auto;
+       
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .img-logo {
+        width: 150px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .list-nav {
+        display: flex;
+        justify-content: end;
+        width: 500px;
+        gap: 20px;
+        position: absolute;
+        top: 90px;
+        right: 60px;
+        
+      
+       
+       
+    }
+}
+@media only screen and (max-width: 576px) {
+    .list-nav {
+        gap: 20px;
+        position: absolute;
+        top: 80px;
+        right: 100px;
+        
+      
+       
+       
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    h3 {
+        background-color: black;
+        color: white;
+    }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .contacts {
+        position: absolute;
+        left: 790px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .contacts {
+        position: absolute;
+        left: 350px;
+
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .tittle {
+        display: flex;
+        justify-content: baseline;
+        padding: 10px;
+        margin: 10px;
+        color: red;
+      
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .parra-1 {
+        background-color: black;
+        color: white;
+       
+        
+    }
+}
+@media only screen and (max-width: 576px) {
+    .parra-1{
+        background-color: black;
+       
+        
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .autos-url {
+        margin: 10px;
+        font-size: 20px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    
+    }
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .img-carrusel{
+        position: relative;
+        left: 100px;
+        width: 800px;
+        height: 700px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .img-carrusel{
+        position: relative;
+        object-fit: cover;
+        left: 1px;
+        width: 600px;
+        height: 400px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .imagen-autos {
+        width: 300px;
+        height: 300px;
+       
+
+    }
+
+}
+@media only screen and (max-width: 576px) {
+    .imagen-autos {
+        width: 500px;
+        height: 400px;
+    
+    }
+
+}
+@media only screen and (max-width: 992px) {
+    #camionetas {
+        width: 930px;
+    }
+ }
+
+ @media only screen and (max-width: 576px) {
+    #camionetas {
+        width: 450px;
+    }
+}    
+
+@media only screen and (max-width: 992px) {
+    .img-camionetas {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+
+    }
+}
+@media only screen and (max-width: 576px) {
+    .img-camionetas {
+        width: 500px;
+        height: 400px;
+        gap: 10px;
+        object-fit: cover;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .caja-camionetas {
+       display: flex;
+       flex-wrap: wrap;
+       gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .precio-camioneta {
+        width: 270px;
+
+    }
+
+}
+@media only screen and (max-width: 576px) {
+    .precio-camioneta {
+        text-align: center;
+        width: 450px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .parra-2 {
+        color: white;
+        background-color: black;
+        font-size: 25px;
+        font-family: Nunito;
+      
+    }
+}
+@media only screen and (max-width: 576px) {
+    .parra-2 {
+       
+        background-color: black;
+        color: white;
+      
+       
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .contact {
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+        color: black;
+        background-color: white;
+        font-size: 30px;
+        
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    #nuevos {
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 40px;
+       
+    }
+}
+@media only screen and (max-width: 576px) {
+    #nuevos {
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        
+       
+    }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    #usados {
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 40px;
+       
+    }
+}
+@media only screen and (max-width: 576px) {
+    #usados {
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        
+    
+    }
+}
+@media only screen and (max-width: 576px) {
+#camionetas {
+    background-color: black;
+    color: white;
+}
+}
+
+@media only screen and (max-width: 576px) {
+    .precios {
+        text-align: center;
+      
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .img-repuestos {
+        width: 600px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: auto;
+        gap: 10px;
+        margin: 10px;        
+}
+}
+
+@media only screen and (max-width: 576px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;    
+}
+}
+@media only screen and (max-width: 992px) {
+    .img-repuestos {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .img-repuestos {
+        width: 500px;
+        height: 400px;
+       
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .maps {
+        position: relative;
+        left: 100px;
+    }
+
+}
+@media only screen and (max-width: 576px) {
+    .maps {
+        margin: 10px;
+        position: relative;
+        left: 0px;
+        width: 520px;
+        height: 500px;
+
+    }
+}
