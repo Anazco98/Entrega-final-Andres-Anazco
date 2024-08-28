@@ -1,0 +1,109 @@
+main {
+    h4 {
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 40px;
+        margin: 20px;
+        padding: 20px;
+        width: 1850px;
+    }
+
+    #nuevos {
+        text-align: center;
+        background-color:white;
+        color: black;
+        font-size: 40px;
+        margin: 20px;
+        padding: 20px;
+        border: none;
+        border-radius: 50px;
+    }
+
+    .imagen-autos{
+        width: 600px;
+        height: 500px;
+        border: 1px solid red;
+        object-fit: cover;
+        margin: auto;
+        padding: auto;
+    }
+
+    .precios {
+        color: white;
+        margin: 20px;
+        padding: 20px;
+        background-color: black;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #usados {
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 40px;
+        border: none;
+        border-radius: 50px;
+        
+    }
+    #camionetas {
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 40px;
+        border: none;
+        border-radius: 50px;
+    }
+    #repuestos {
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 40px;
+        border: none;
+        border-radius: 50px;
+    }
+
+    .caja-camionetas {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    
+        .img-camionetas{
+            border: 1px solid red;
+            width: 600px;
+            height: 500px;
+            object-fit: cover;  
+        }
+    
+        .precio-camioneta {
+            color: white;
+            width: 550px;
+            margin: 10px;
+            padding: 20px;
+            background-color: black;
+            font-size: 1rem;
+            text-align: center;
+        }
+      
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-rows:repeat(2, 400px);
+        grid-template-columns:repeat(3, 1fr);
+        gap: 10px;
+    
+        .img-repuestos {
+            width: 600px;
+            height: 400px;
+            border: 1px solid rgb(255, 0, 0);
+        }
+        
+    }
+
+
+
+
+   
+}

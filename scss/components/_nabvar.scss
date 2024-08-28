@@ -1,3 +1,8 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 20px;
+    margin: 10px;
+
 .header-nav {
     display: flex;
     justify-content: space-around;
@@ -9,7 +14,8 @@
         gap: 20px;
         width: 1800px;
         position: absolute;
-        top: 90px;
+        top: 150px;
+       
 
         .img-redes {
             width: 30px;
@@ -20,12 +26,18 @@
 
 .autos-url {
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     background-color: black;
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    gap: 30px;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    right: 40px;
+    top: 50px;
+
 
     & a{
         text-decoration: none; 
@@ -36,3 +48,6 @@
 }
 
 
+
+
+}
