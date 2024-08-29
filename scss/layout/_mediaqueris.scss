@@ -1,16 +1,152 @@
+
 @media only screen and (max-width: 576px) {
-   .img-logo {
-        width: 500px;
-        height: 200px;
+    .img-logo {
+         width: 300px;
+         height: 200px;
+         object-fit: cover;
+         
+     }
+ }
+
+@media only screen and (max-width: 576px) {
+    .nabvar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    position: absolute;
+    left: 390px;
+    top: 10px;
+    a {
+       text-decoration: none;
+       font-size: 15px;
+    }    
+}
+ }
+
+@media only screen and (max-width: 576px)  {
+    h1 {
+        width: 300px;
+        font-size: 25px;
+        margin: 10px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        color: black;
+        &:hover {
+            color: red;
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    p  {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .img-carrusel {
+        position: relative;
+        top: 10px;
         object-fit: cover;
+        left: 1px;
+        width: 500px;
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    h2 {
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
 
+@media only screen and (max-width: 576px) {
+    .imagen-autos {
+        width: 550px;
+        height: 500px;
+        object-fit: cover;
+    
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .img-camionetas {
+        width: 550px;
+        height: 500px;
+        object-fit: cover;
+
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .img-repuestos {
+        width: 550px;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .caja-camionetas {
+       display: flex;
+       flex-wrap: wrap;
+       gap: 10px;
+    }
+}
+@media only screen and (max-width: 576px) {
+        .grid-container {
+            grid-template-columns:repeat(1, 1fr);
+            gap: 10px;
+
+        
+            .img-repuestos {
+                border-radius: 300px;
+                padding: 10px;
+                width: 600px;
+                height: 400px;
+                object-fit: cover;
+               
+            }
+            
+        }
+}
 
 
 
+@media only screen and (max-width: 576px) {
+    .redes-sociales {
+        display: flex;
+        justify-content: baseline;
+        gap: 40px;
+        margin: 10px;
+        margin-left: 150px;
+        margin-top: -130px;
 
+        
+       
+    
+
+        .img-redes {
+            width: 50px;
+            margin: 10px;
+            
+        }
+
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    h5 {
+        margin: 10px;
+        margin-left: 100px;
+        width: 400px;
+        height: 200px;
+    }
+}
 
 
 
