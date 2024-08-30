@@ -19,7 +19,7 @@
             
 
             a:visited {
-                color: red;
+                color:$color-red;
                } 
             a {
                 text-decoration: none;
@@ -27,7 +27,7 @@
         
             }   
            a:hover {
-            color: white;
+            color: $color-white;
             transition: 0.5s;
        
            }

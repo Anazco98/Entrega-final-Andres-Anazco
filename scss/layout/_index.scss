@@ -1,15 +1,7 @@
 main {
    
 
-    
 
-    .imagen-autos{
-        border-radius: 30px;
-        object-fit: cover;
-        padding: 10px;
-        width: 600px;
-        height: 500px;
-    }
 
     .precios {
         color: white;
@@ -30,11 +22,7 @@ main {
         justify-content: space-around;
     
         .img-camionetas{
-            padding: 10px;
-            border-radius: 30px;
-            object-fit: cover;  
-            width: 600px;
-            height: 500px;
+           @include imagenes(600px, 500px, cover, 30px, 10px)
         }
     
         .precio-camioneta {
@@ -49,6 +37,7 @@ main {
         }
       
     }
+    
 
     .grid-container {
         display: grid;
@@ -57,15 +46,12 @@ main {
         gap: 10px;
     
         .img-repuestos {
-            border-radius: 300px;
-            padding: 10px;
-            width: 600px;
-            height: 400px;
-            object-fit: cover;
+            @include imagenes (600px, 400px, cover, 200px, 10px)
            
         }
         
     }
+    
 
 
 

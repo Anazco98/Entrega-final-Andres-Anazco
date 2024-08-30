@@ -1,0 +1,12 @@
+@mixin imagenes($w, $h, $obj,$bor,$padd) {
+    width: $w;
+    height: $h;
+    object-fit: $obj;
+    border-radius: $bor;
+    padding: $padd;
+
+}
+
+.imagen-autos {
+    @include imagenes (600px, 500px, cover, 30px, 10px)
+}
