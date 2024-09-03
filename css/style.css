@@ -6,6 +6,22 @@
   padding: 10px;
 }
 
+.img-repuestos {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 200px;
+  padding: 10px;
+}
+
+.img-camionetas {
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 30px;
+  padding: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -97,7 +113,6 @@ h5 {
 }
 
 #camionetas {
-  padding: 20px;
   text-align: center;
   background-color: #191919;
   color: #ff0000;
@@ -182,38 +197,21 @@ main .precios {
 }
 main .caja-camionetas {
   display: flex;
-  justify-content: center;
-  justify-content: space-around;
-}
-main .caja-camionetas .img-camionetas {
-  width: 600px;
-  height: 500px;
-  object-fit: cover;
-  border-radius: 30px;
-  padding: 10px;
 }
 main .caja-camionetas .precio-camioneta {
-  margin-left: 100px;
+  margin-left: 10px;
   color: white;
   padding: 10px;
   background-color: black;
   font-size: 1rem;
   text-align: center;
   border-radius: 10px;
-  width: 450px;
 }
 main .grid-container {
   display: grid;
   grid-template-rows: repeat(2, 400px);
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-}
-main .grid-container .img-repuestos {
-  width: 600px;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 200px;
-  padding: 10px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -230,7 +228,7 @@ main .grid-container .img-repuestos {
     width: 150px;
     position: absolute;
     left: 390px;
-    top: 10px;
+    top: 35px;
   }
   .nabvar a {
     text-decoration: none;
@@ -258,6 +256,16 @@ main .grid-container .img-repuestos {
     flex-wrap: wrap;
   }
 }
+@media only screen and (max-width: 992px) {
+  .img-carrusel {
+    position: relative;
+    object-fit: cover;
+    top: 10px;
+    left: 10px;
+    width: 900px;
+    height: 700px;
+  }
+}
 @media only screen and (max-width: 576px) {
   .img-carrusel {
     position: relative;
@@ -276,10 +284,24 @@ main .grid-container .img-repuestos {
     flex-wrap: wrap;
   }
 }
+@media only screen and (max-width: 992px) {
+  .imagen-autos {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+}
 @media only screen and (max-width: 576px) {
   .imagen-autos {
     width: 550px;
     height: 500px;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .img-camionetas {
+    width: 300px;
+    height: 300px;
     object-fit: cover;
   }
 }
@@ -297,38 +319,65 @@ main .grid-container .img-repuestos {
     gap: 10px;
   }
 }
+@media only screen and (max-width: 992px) {
+  .img-repuestos {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+}
 @media only screen and (max-width: 576px) {
   main .grid-container {
     grid-template-columns: repeat(1, 1fr);
-    border-radius: none;
   }
 }
 @media only screen and (max-width: 576px) and (max-width: 576px) {
   main .grid-container .img-repuestos {
     width: 500px;
     height: 400px;
-    border-radius: none;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .redes-sociales {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin: 10px;
+    margin-left: 10px;
+    margin-top: -150px;
+  }
+  .redes-sociales .img-redes {
+    width: 90px;
+    margin: 10px;
   }
 }
 @media only screen and (max-width: 576px) {
   .redes-sociales {
     display: flex;
     justify-content: baseline;
-    gap: 40px;
+    gap: 10px;
     margin: 10px;
-    margin-left: 100px;
+    margin-left: 5px;
     margin-top: -130px;
   }
   .redes-sociales .img-redes {
-    width: 50px;
+    width: 70px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  h5 {
     margin: 10px;
+    margin-left: 20px;
+    width: 920px;
+    height: 200px;
   }
 }
 @media only screen and (max-width: 576px) {
   h5 {
     margin: 10px;
-    margin-left: 50px;
-    width: 400px;
+    margin-left: 20px;
+    width: 500px;
     height: 200px;
   }
 }

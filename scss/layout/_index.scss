@@ -18,22 +18,19 @@ main {
 
     .caja-camionetas {
         display: flex;
-        justify-content: center;
-        justify-content: space-around;
+       
+      
     
-        .img-camionetas{
-           @include imagenes(600px, 500px, cover, 30px, 10px)
-        }
     
         .precio-camioneta {
-            margin-left: 100px;
+            margin-left: 10px;
             color: white;
             padding: 10px;
             background-color: black;
             font-size: 1rem;
             text-align: center;
             border-radius: 10px;
-            width: 450px;
+            
         }
       
     }
@@ -45,16 +42,6 @@ main {
         grid-template-columns:repeat(3, 1fr);
         gap: 10px;
     
-        .img-repuestos {
-            @include imagenes (600px, 400px, cover, 200px, 10px)
-           
-        }
-        
     }
-    
-
-
-
-
    
 }
