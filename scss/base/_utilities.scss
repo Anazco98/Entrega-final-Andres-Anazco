@@ -8,12 +8,12 @@
 }
 
 .imagen-autos {
-    @include imagenes (600px, 500px, cover, 30px, 10px)
+    @include imagenes (100%, 450px, cover, 30px, 10px)
 }
 .img-repuestos {
-    @include imagenes (600px, 400px, cover, 200px, 10px)
+    @include imagenes (100%, 400px, cover, 200px, 10px)
    
 }
 .img-camionetas{
-    @include imagenes(600px, 500px, cover, 30px, 10px)
+    @include imagenes(100%, 500px, cover, 30px, 10px)
 }
