@@ -59,6 +59,8 @@
 
 @media only screen and (max-width: 992px) {
     .imagen-autos {
+        width: 300px;
+        height: 300px;
        
         object-fit: cover;
     
@@ -67,14 +69,15 @@
 
 @media only screen and (max-width: 576px) {
     .imagen-autos {
-        
+        width: 100%;
         object-fit: cover;
     
     }
 }
 @media only screen and (max-width: 992px) {
     .img-camionetas {
-        
+        width: 300px;
+        height: 300px;
         object-fit: cover;
         
 
@@ -82,7 +85,7 @@
 }
 @media only screen and (max-width: 576px) {
     .img-camionetas {
-        
+        width: 100%;
         object-fit: cover;
 
     }
@@ -98,9 +101,16 @@
 }
 @media only screen and (max-width: 992px) {
     .img-repuestos {
-
+        width: 300px;
+        height: 300px;
         object-fit: cover;  
     }                  
+    }
+    @media only screen and (max-width: 576px) {
+        .img-repuestos {
+            width: 100%;
+            object-fit: cover; 
+        }
     }
 @media only screen and (max-width: 576px) {
        main .grid-container {

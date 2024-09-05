@@ -4,7 +4,7 @@
     margin: 10px;
 
 
-       .navbar .navbar-nav {
+     .navbar .navbar-nav {
             display: flex;
             justify-content: space-around;
             gap: 20px;
@@ -31,3 +31,7 @@
            }
       }
   }
+  .navbar-toggler{
+    background-color: black;
+   
+}
